@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi &mdash; Content Autopilot</title>
+<style>
+  :root { --ink:#111827; --muted:#6b7280; --line:#e5e7eb; --accent:#0F6E56; }
+  body { font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+         max-width:680px; margin:0 auto; padding:56px 24px; color:var(--ink); line-height:1.7; }
+  h1 { font-size:1.5rem; letter-spacing:-0.02em; }
+  h2 { font-size:1.05rem; margin-top:32px; }
+  .updated { color:var(--muted); font-size:0.875rem; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line);
+           font-size:0.875rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<h1>Kebijakan Privasi</h1>
+<p class="updated">Berlaku sejak: 1 Agustus 2026</p>
+
+<h2>1. Tentang aplikasi ini</h2>
+<p>Content Autopilot adalah alat otomatisasi internal yang digunakan oleh satu operator untuk menjadwalkan dan memublikasikan konten ke akun media sosial miliknya sendiri. Aplikasi ini tidak tersedia untuk pendaftaran publik dan tidak melayani pengguna pihak ketiga.</p>
+
+<h2>2. Data yang dikumpulkan</h2>
+<p>Aplikasi hanya menyimpan data yang diperlukan untuk memublikasikan konten ke akun operator sendiri:</p>
+<ul>
+  <li>Token akses dan token penyegar OAuth untuk akun yang terhubung</li>
+  <li>Pengenal akun (channel ID, user ID) dari akun operator</li>
+  <li>Konten yang dibuat operator: video, judul, keterangan, tagar</li>
+  <li>Metrik performa publik dari unggahan operator sendiri</li>
+</ul>
+<p>Aplikasi <strong>tidak</strong> mengumpulkan data dari pengguna lain, tidak mengakses akun pihak ketiga, dan tidak memiliki mekanisme pendaftaran publik.</p>
+
+<h2>3. Cara data digunakan</h2>
+<p>Data digunakan semata-mata untuk mengautentikasi ke API platform dan memublikasikan konten atas nama operator. Tidak ada data yang dijual, disewakan, dibagikan, atau dipindahtangankan kepada pihak ketiga mana pun.</p>
+
+<h2>4. Penyimpanan dan keamanan</h2>
+<p>Kredensial disimpan terenkripsi dalam basis data privat dengan Row Level Security aktif, hanya dapat diakses oleh proses otomatis milik operator. Berkas video disimpan dalam object storage dan dihapus otomatis setelah 30 hari.</p>
+
+<h2>5. Berbagi data dengan pihak ketiga</h2>
+<p>Aplikasi berinteraksi dengan API resmi Google (YouTube), Meta (Instagram dan Threads), dan TikTok semata-mata untuk memublikasikan konten operator. Tidak ada data yang dibagikan di luar keperluan tersebut.</p>
+
+<h2>6. Retensi dan penghapusan</h2>
+<p>Token disimpan selama akun masih terhubung dan dihapus segera setelah dicabut. Metadata konten disimpan untuk keperluan analitik dan dapat dihapus kapan saja atas permintaan operator.</p>
+
+<h2>7. Pencabutan akses</h2>
+<p>Operator dapat mencabut akses aplikasi kapan saja melalui pengaturan keamanan masing-masing platform. Pencabutan akan langsung menghentikan seluruh akses.</p>
+
+<h2>8. Kontak</h2>
+<p>Pertanyaan mengenai kebijakan ini dapat diajukan melalui alamat kontak yang tercantum pada pendaftaran developer aplikasi.</p>
+
+<footer><a href="index.html">Beranda</a> &nbsp;&middot;&nbsp; <a href="terms.html">Ketentuan Layanan</a></footer>
+</body>
+</html>
